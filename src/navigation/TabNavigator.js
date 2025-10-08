@@ -2,11 +2,11 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@react-native-vector-icons/ionicons';
 
-import HomeScreen from '../screens/HomeScreen';
-import AuditScreen from '../screens/AuditScreen';
-import ReviewsScreen from '../screens/ReviewsScreen';
-import GridScreen from '../screens/GridScreen';
-import SettingsScreen from '../screens/SettingsScreen';
+import HomeScreen from '../screens/Home/HomeScreen';
+import AuditScreen from '../screens/Audit/AuditScreen';
+import ReviewsScreen from '../screens/Reviews/ReviewsScreen';
+import GridScreen from '../screens/Grid/GridScreen';
+import SettingsScreen from '../screens/Settings/SettingsScreen';
 
 const Tab = createBottomTabNavigator();
 
