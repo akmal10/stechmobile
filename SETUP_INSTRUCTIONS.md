@@ -1,4 +1,4 @@
-# DevinMobile Vanilla React Native - Setup Instructions
+# StechLocal - Setup Instructions
 
 This is a vanilla React Native application converted from the original Expo-based DevinMobile app. All TypeScript files have been converted to JavaScript, and all Expo dependencies have been replaced with standard React Native equivalents.
 
@@ -101,6 +101,8 @@ All files that used Expo-specific imports were updated:
 cd /home/ubuntu/repos/DevinMobileVanilla
 ```
 
+Note: The project directory is still named `DevinMobileVanilla` but the app itself is named `StechLocal`.
+
 ### 2. Install Dependencies (Already Done)
 ```bash
 npm install
@@ -154,7 +156,7 @@ npx react-native run-android --deviceId=emulator-5554
 ## Project Structure
 
 ```
-DevinMobileVanilla/
+StechLocal/
 ├── android/                  # Android native project
 ├── ios/                      # iOS native project
 ├── assets/
@@ -278,7 +280,7 @@ Font names in code: `Inter-Regular`, `Inter-Medium`, `Inter-SemiBold`, `Inter-Bo
 
 1. **Test on Emulator/Simulator**: Run the app on an emulator/simulator to verify functionality
 2. **Test on Physical Device**: Deploy to a physical device for real-world testing
-3. **Configure App Icons**: Add custom app icons in `android/app/src/main/res` and `ios/DevinMobileVanilla/Images.xcassets`
+3. **Configure App Icons**: Add custom app icons in `android/app/src/main/res` and `ios/StechLocal/Images.xcassets`
 4. **Configure Splash Screen**: Set up native splash screens for both platforms
 5. **Set Up Deployment**: Configure signing and release builds for app store deployment
 
