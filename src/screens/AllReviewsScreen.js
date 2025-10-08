@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Modal, FlatList, Image, TextInput } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Ionicons } from '@react-native-vector-icons/ionicons';
 import CommonHeader from '../components/CommonHeader';
 import { Typography } from '../constants/Typography';
 

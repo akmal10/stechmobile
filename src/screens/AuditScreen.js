@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Alert, Modal, Dimensions } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Ionicons } from '@react-native-vector-icons/ionicons';
 import Svg, { Circle } from 'react-native-svg';
 import CommonHeader from '../components/CommonHeader';
 import DateFilter from '../components/DateFilter';

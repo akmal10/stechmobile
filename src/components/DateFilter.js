@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Modal, Animated, Dimensions, ScrollView } from 'react-native';
-import Ionicons from 'react-native-vector-icons/Ionicons';
+import { Ionicons } from '@react-native-vector-icons/ionicons';
 import { Calendar } from 'react-native-calendars';
 import { Typography } from '../constants/Typography';
 
